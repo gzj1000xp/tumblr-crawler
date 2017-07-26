@@ -48,6 +48,7 @@ class DownloadWorker(Thread):
     def download(self, medium_type, post, target_folder):
         try:
             medium_url = self._handle_medium_url(medium_type, post)
+            print(medium_url)
             if medium_url is not None:
                 self._download(medium_type, medium_url, target_folder)
         except TypeError:
@@ -168,6 +169,7 @@ class CrawlerScheduler(object):
                                     proxies=self.proxies)
             print(response)
             data = xmltodict.parse(response.content)
+            print(data)
             try:
                 posts = data["tumblr"]["posts"]["post"]
                 for post in posts:
