@@ -1,3 +1,4 @@
+# encoding = utf-8
 # -*- coding: utf-8 -*-
 
 import os
@@ -91,8 +92,7 @@ class DownloadWorker(Thread):
 
         file_path = os.path.join(target_folder, medium_name)
         if not os.path.isfile(file_path):
-            print("Downloading %s from %s.\n" % (medium_name,
-                                                 medium_url))
+            print("Downloading %s from %s.\n" % (medium_name, medium_url))
             retry_times = 0
             while retry_times < RETRY:
                 try:
@@ -113,8 +113,7 @@ class DownloadWorker(Thread):
                     os.remove(file_path)
                 except OSError:
                     pass
-                print("Failed to retrieve %s from %s.\n" % (medium_type,
-                                                            medium_url))
+                print("Failed to retrieve %s from %s.\n" % (medium_type, medium_url))
 
 
 class CrawlerScheduler(object):
@@ -164,8 +163,10 @@ class CrawlerScheduler(object):
         start = START
         while True:
             media_url = base_url.format(site, medium_type, MEDIA_NUM, start)
+            print(media_url)
             response = requests.get(media_url,
                                     proxies=self.proxies)
+            print(response)
             data = xmltodict.parse(response.content)
             try:
                 posts = data["tumblr"]["posts"]["post"]
