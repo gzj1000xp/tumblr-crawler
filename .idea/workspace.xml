@@ -15,8 +15,8 @@
       <file leaf-file-name="tumblr-photo-video-ripper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tumblr-photo-video-ripper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3261">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="322">
+              <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
               <folding>
                 <element signature="e#44#53#0" expanded="true" />
               </folding>
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/sites.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -225,10 +225,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14940476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286026" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286026" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -400,6 +401,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2384">
+          <caret line="852" column="8" lean-forward="false" selection-start-line="852" selection-start-column="8" selection-end-line="852" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proxies.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -411,23 +420,15 @@
     <entry file="file://$PROJECT_DIR$/sites.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Python36/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2384">
-          <caret line="852" column="8" lean-forward="false" selection-start-line="852" selection-start-column="8" selection-end-line="852" selection-end-column="8" />
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tumblr-photo-video-ripper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3261">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
           <folding>
             <element signature="e#44#53#0" expanded="true" />
           </folding>

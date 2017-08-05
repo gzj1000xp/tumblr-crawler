@@ -49,8 +49,8 @@ class DownloadWorker(Thread):
         try:
             medium_url = self._handle_medium_url(medium_type, post)
             print(medium_url)
-            #if medium_url is not None:
-                #self._download(medium_type, medium_url, target_folder)
+            if medium_url is not None:
+                self._download(medium_type, medium_url, target_folder)
         except TypeError:
             pass
 
